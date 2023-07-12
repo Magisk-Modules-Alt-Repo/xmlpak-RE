@@ -1,0 +1,43 @@
+name: Create Release Zip
+
+on:
+  push:
+    branches:
+      - RE
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+       
+    - name: Set version variable
+      id: version
+      run: echo "::set-output name=version::$(grep -oP 'version=\K[^ ]+' module.prop)"
+      
+    - name: Create release zip
+      run: zip -r9 "xmlpak-RE_module_${{ steps.version.outputs.version }}.zip" . -x "*.git*" -x "*.github*" -x ".gitattributes"
+      
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.version.outputs.version }}-${{ github.run_number }}
+        release_name: xmlpak-RE ${{ steps.version.outputs.version }}
+        draft: false
+        prerelease: true
+
+    - name: Upload Release Asset
+      id: upload_release_asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./xmlpak-RE_module_${{ steps.version.outputs.version }}.zip
+        asset_name: xmlpak-RE_module_${{ steps.version.outputs.version }}.zip
+        asset_content_type: application/zip
