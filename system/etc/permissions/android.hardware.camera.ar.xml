@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<!-- Normally, it's declared by HAL or something, but is's xmlpak after all...
+<!-- Normally, it's declared by HAL or something, but is's xmlpak-RE after all...
      Needed for ARCore. -->
 <permissions>
     <feature name="android.hardware.camera.ar" />
