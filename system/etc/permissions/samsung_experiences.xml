@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
+    <feature name="com.samsung.feature.SAMSUNG_EXPERIENCE" /> 
     <feature name="samsung.feature.drm.playready"/>
 	<feature name="samsung.feature.drm.playready_DLA"/>
 	<feature name="samsung.feature.octa"/>

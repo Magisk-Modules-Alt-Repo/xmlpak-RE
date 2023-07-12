@@ -6,4 +6,14 @@
  <feature name="com.samsung.android.api.version.2601" />
  <feature name="com.samsung.android.api.version.2701" />
  <feature name="com.samsung.android.api.version.2801" />
+ <feature name="com.samsung.android.api.version.2802" />
+ <feature name="com.samsung.android.api.version.2803" />
+ <feature name="com.samsung.android.api.version.2901" />
+ <feature name="com.samsung.android.api.version.2902" />
+ <feature name="com.samsung.android.api.version.2903" />
+ <feature name="com.samsung.android.api.version.3001" />
+ <feature name="com.samsung.android.api.version.3002" />
+ <feature name="com.samsung.android.api.version.3101" />
+ <feature name="com.samsung.android.api.version.3201" /> 
+ <feature name="com.samsung.android.api.version.3301" /> 
 </permissions>
