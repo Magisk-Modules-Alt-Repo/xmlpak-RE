@@ -1,3 +1,8 @@
+**5.0
+- Fixed Google Spoof
+- Updated Samsung, Sony
+- Updated Module Installer
+
 **4.5**    
 - Fixed some Asus things
 - Added more features 

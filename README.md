@@ -5,16 +5,16 @@ This module enables you to download and install vendor apps from Google Play. Th
 
 What vendors are supported?
 
-HTC, OnePlus, Essential, Asus, Nokia/HMD Global, Google (lens, dialer, launcher, Daydream, maybe something else), Motorola, BlackBerry, Nextbit, BQ, Sony, Samsung, Cyanogen, Razer, NVIDIA, Acer, Microsoft.
+HTC, OnePlus, Essential, Asus, Nokia/HMD Global, Nothing, Google , Motorola, BlackBerry, Nextbit, BQ, Sony, Samsung, Cyanogen, Razer, NVIDIA, Acer, Microsoft.
 
 ## Requirements
 - Magisk
+- KernelSU
 
 ## Instructions
 **First installation of the module will result in Play Store data reset.** If you disabled automtic app updates, keep this in mind.
 
-After reboot, wait. Or not. Play Store often isn't too hasty in terms of compatibility detection. If you want to be quicker and don't want to say something about not working module, reset Play Store and Play Store Services data + reboot again. And if you are somehow on Marshmallow, you may even need to wipe the whole data.
+After reboot, wait. Or not. Play Store often isn't too hasty in terms of compatibility detection. If you want to be quicker and don't want to say something about not working module, Turn on Airplane Mode , reset Play Store and Play Store Services data + reboot again. And if you are somehow on Marshmallow, you may even need to wipe the whole data.
 
 ## Links
-[Latest stable Magisk](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
-
+[Original](=https://github.com/Magisk-Modules-Repo/xmlpak)
