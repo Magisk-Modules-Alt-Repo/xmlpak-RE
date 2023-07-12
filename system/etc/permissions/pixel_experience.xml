@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
-<feature name="com.google.android.feature.PIXEL_2017_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2018_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2019_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2019_MIDYEAR_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2020_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2020_MIDYEAR_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2021_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2021_MIDYEAR_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2022_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2022_MIDYEAR_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2023_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2023_MIDYEAR_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2024_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_2024_MIDYEAR_EXPERIENCE"/>
-<feature name="com.google.android.feature.PIXEL_EXPERIENCE"/>
-<feature name="com.google.android.feature.TURBO_PRELOAD"/>
-<feature name="com.google.android.feature.WELLBEING"/>
 <feature name="com.google.android.googlequicksearchbox.AMB_DEVICE_INTEGRATION"/>
 <feature name="com.google.android.googlequicksearchbox.OEM_AOD_SMARTSPACE"/>
 <feature name="com.google.android.googlequicksearchbox.OEM_SMARTSPACE_WIDGET"/>
@@ -25,15 +8,7 @@
 <feature name="com.google.hardware.camera.easel_2018"/>
 <feature name="com.google.lens.feature.CAMERA_INTEGRATION"/>
 <feature name="com.google.lens.feature.IMAGE_INTEGRATION"/>
-<feature name="com.google.photos.trust_debug_certs"/>
 <feature name="com.google.android.feature.ANDROID_ONE_EXPERIENCE"/>
-<feature name="com.google.android.apps.photos.nexus_preload"/>
-<feature name="com.google.android.feature.GOOGLE_FI_BUNDLED"/>
 <feature name="com.google.android.feature.LILY_EXPERIENCE"/>
-<feature name="com.google.android.feature.NEXT_GENERATION_ASSISTANT"/>
-<feature name="com.google.lens.feature.IMAGE_INTEGRATION"/>
 <feature name="com.google.android.feature.EXCHANGE_6_2"/>
-<feature name="com.google.ar.core.depth"/>
-<feature name="com.google.ar.core.depth"/>
-<feature name="com.google.android.feature.AER_OPTIMIZED"/>
 </config>
