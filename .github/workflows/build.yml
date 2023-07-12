@@ -1,9 +1,7 @@
 name: Create Release Zip
 
 on:
-  push:
-    branches:
-      - RE
+  workflow_dispatch:
 
 jobs:
   build:
