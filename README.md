@@ -1,5 +1,8 @@
 # **xmlpak-RE – a road to vendor apps**
 
+## What is RE ???
+REincarnated or Maybe REvived ?? Or Something Else :P
+
 ## Description
 This module enables you to download and install vendor apps from Google Play. Their compatibility is not guaranteed.
 
@@ -16,5 +19,5 @@ HTC, OnePlus, Essential, Asus, Nokia/HMD Global, Nothing, Google , Motorola, Bla
 
 After reboot, wait. Or not. Play Store often isn't too hasty in terms of compatibility detection. If you want to be quicker and don't want to say something about not working module, Turn on Airplane Mode , reset Play Store and Play Store Services data + reboot again. And if you are somehow on Marshmallow, you may even need to wipe the whole data.
 
-## Links
-[Original](=https://github.com/Magisk-Modules-Repo/xmlpak)
+## Credits
+Based on [Original](https://github.com/Magisk-Modules-Repo/xmlpak) xmlpak module.
