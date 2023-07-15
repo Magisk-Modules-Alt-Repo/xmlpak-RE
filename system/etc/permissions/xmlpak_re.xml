@@ -1145,6 +1145,10 @@
     <feature name="com.nextbit.gallery"/>
     <feature name="com.nextbit.launcher"/>
     <!-- Nothing -->
+    <feature name="com.nothing.feature" />
+    <feature name="com.nothing.launcher.V1_5_data_compat"/>
+    <feature name="com.nothing.feature.OS.V1_5"/>
+    <feature name="com.nothing.feature.OS.V2_0"/>
     <feature name="nt.face.facerecognition"/>
     <!-- Nvidia -->
     <library name="com.nvidia.diagtools.exposed" file="/system/framework/xmlpak_re.jar"/>
