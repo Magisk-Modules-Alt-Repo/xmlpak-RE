@@ -1218,6 +1218,7 @@
     <feature name="com.razerzone.themes"/>
     <!-- Samsung -->
     <library name="com.samsung.device" file="/system/framework/xmlpak_re.jar"/>
+    <library name="manager_wrapper_compat" file="/system/framework/xmlpak_re.jar" />
     <library name="oneui" file="/system/framework/xmlpak_re.jar"/>
     <feature name="com.samsung.android.api.version.2402"/>
     <feature name="com.samsung.android.api.version.2403"/>
@@ -1236,10 +1237,24 @@
     <feature name="com.samsung.android.api.version.3101"/>
     <feature name="com.samsung.android.api.version.3201"/>
     <feature name="com.samsung.android.api.version.3301"/>
+    <feature name="com.samsung.android.knox.knoxsdk.api.level.36"/>
+    <feature name="com.samsung.android.knox.knoxsdk.api.level.35"/>
+    <feature name="com.samsung.android.knox.knoxsdk.api.level.34"/>
+    <feature name="com.samsung.android.knox.knoxsdk.api.level.33"/>
     <feature name="com.samsung.feature.SAMSUNG_EXPERIENCE"/>
+    <feature name="com.samsung.feature.SAMSUNG_EXPERIENCE_AM" />
     <feature name="com.samsung.feature.aremoji.v2"/>
     <feature name="com.samsung.feature.galaxyfinder_v7"/>
     <feature name="com.samsung.feature.samsung_experience_mobile"/>
+    <feature name="com.samsung.android.knox.knoxsdk" />
+    <feature name="com.samsung.android.camera.deviceinjector" version="1" />
+    <feature name="com.samsung.feature.samsungpositioning"/>
+    <feature name="com.samsung.feature.samsungpositioning.snlp"/>
+    <feature name="com.samsung.feature.device_category_phone" />
+    <feature name="com.samsung.feature.aodservice_v10" />
+    <feature name="com.samsung.android.sdk.camera.processor.effect" />
+    <feature name="com.samsung.android.sdk.camera.processor" />
+    <feature name="com.samsung.android.authfw" />
     <feature name="samsung.feature.drm.playready"/>
     <feature name="samsung.feature.drm.playready_DLA"/>
     <feature name="samsung.feature.octa"/>
