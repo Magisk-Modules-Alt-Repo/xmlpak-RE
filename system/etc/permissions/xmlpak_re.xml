@@ -306,7 +306,7 @@
     <feature name="com.fihtdc.hardware.sensor.hall"/>
     <feature name="com.fihtdc.inlifeui.settings.style.android"/>
     <!-- Google -->
-    <library name="com.google.android.dialer.support" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.google.android.dialer.support" file="/system/framework/com.google.android.dialer.support.jar"/>
     <feature name="android.hardware.camera.ar"/>
     <feature name="android.hardware.gamepad"/>
     <feature name="android.hardware.vr.high_performance"/>
