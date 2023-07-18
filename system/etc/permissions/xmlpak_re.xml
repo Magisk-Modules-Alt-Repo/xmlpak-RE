@@ -335,6 +335,9 @@
     <feature name="com.google.android.feature.PIXEL_2021_MIDYEAR_EXPERIENCE"/>
     <feature name="com.google.android.feature.PIXEL_2022_EXPERIENCE"/>
     <feature name="com.google.android.feature.PIXEL_2022_MIDYEAR_EXPERIENCE"/>
+    <feature name="com.google.android.feature.PIXEL_2023_EXPERIENCE"/>
+    <feature name="com.google.android.feature.PIXEL_2023_MIDYEAR_EXPERIENCE" />
+    <feature name="com.google.android.feature.PIXEL_TABLET_2023_EXPERIENCE" />
     <feature name="com.google.android.feature.PIXEL_EXPERIENCE"/>
     <feature name="com.google.android.feature.QUICK_TAP"/>
     <feature name="com.google.android.feature.TURBO_PRELOAD"/>
@@ -346,6 +349,72 @@
     <feature name="com.google.hardware.camera.easel_2018"/>
     <feature name="com.google.lens.feature.CAMERA_INTEGRATION"/>
     <feature name="com.google.lens.feature.IMAGE_INTEGRATION"/>
+
+    <privapp-permissions package="com.android.hotwordenrollment.okgoogle">
+        <permission name="android.permission.KEYPHRASE_ENROLLMENT_APPLICATION"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.hotwordenrollment.xgoogle">
+        <permission name="android.permission.KEYPHRASE_ENROLLMENT_APPLICATION"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.googlequicksearchbox">
+        <permission name="android.permission.BIND_APPWIDGET"/>
+        <permission name="android.permission.CALL_PRIVILEGED"/>
+        <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE" />
+        <permission name="android.permission.ENTER_CAR_MODE_PRIORITIZED" />
+        <permission name="android.permission.GLOBAL_SEARCH"/>
+        <permission name="android.permission.INTERACT_ACROSS_PROFILES"/>
+        <deny-permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_VOICE_KEYPHRASES"/>
+        <permission name="android.permission.MANAGE_SOUND_TRIGGER"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.RECORD_AUDIO"/>
+        <permission name="android.permission.SET_MEDIA_KEY_LISTENER"/>
+        <permission name="android.permission.SET_VOLUME_KEY_LONG_PRESS_LISTENER"/>
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.SHOW_KEYGUARD_MESSAGE"/>
+        <permission name="android.permission.SOUND_TRIGGER_RUN_IN_BATTERY_SAVER"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="com.google.android.permission.SET_WATCH_FACE_PRIVILEGED"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_DREAM_STATE"/>
+        <permission name="android.permission.SUBSTITUTE_SHARE_TARGET_APP_NAME_AND_ICON"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.apps.wellbeing">
+        <permission name="android.permission.ACCESS_INSTANT_APPS"/>
+        <permission name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
+        <permission name="android.permission.CONTROL_DISPLAY_SATURATION"/>
+        <permission name="android.permission.INTERACT_ACROSS_PROFILES"/>
+        <permission name="android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK"/>
+        <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MODIFY_QUIET_MODE"/>
+        <permission name="android.permission.OBSERVE_APP_USAGE"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+        <permission name="android.permission.SET_WALLPAPER_DIM_AMOUNT"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.SUSPEND_APPS"/>
+        <permission name="android.permission.WRITE_DREAM_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
     <!-- Nokia -->
     <feature name="com.hmdglobal.android.feature.NOKIA_CAMERA_EXPERIENCE"/>
     <feature name="com.hmdglobal.android.feature.NOKIA_CAMERA_V3"/>
