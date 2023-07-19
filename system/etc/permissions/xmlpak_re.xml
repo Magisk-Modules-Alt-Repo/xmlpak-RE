@@ -344,6 +344,8 @@
     <feature name="com.google.android.feature.QUICK_TAP"/>
     <feature name="com.google.android.feature.TURBO_PRELOAD"/>
     <feature name="com.google.android.feature.WELLBEING"/>
+    <feature name="com.google.android.feature.PERSONAL_SAFETY" />
+    <feature name="com.google.ambient.streaming" />
     <feature name="com.google.android.googlequicksearchbox.AMB_DEVICE_INTEGRATION"/>
     <feature name="com.google.android.googlequicksearchbox.OEM_AOD_SMARTSPACE"/>
     <feature name="com.google.android.googlequicksearchbox.OEM_SMARTSPACE_WIDGET"/>
