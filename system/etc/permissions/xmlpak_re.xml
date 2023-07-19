@@ -1495,6 +1495,10 @@
     <feature name="com.vivo.software.support.permission.rom13"/>
     <feature name="com.vivo.themestore.SUPPORTED"/>
     <feature name="com.vivo.website.in.SUPPORTED"/>
+    <!-- Xiaomi -->
+    <library name="com.miui.system" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.miui.rom" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.miui.core" file="/system/framework/xmlpak_re.jar"/>
     <!-- Yota -->
     <feature name="com.yotadevices.feature.API_YD201_005"/>
     <!-- Misc -->
