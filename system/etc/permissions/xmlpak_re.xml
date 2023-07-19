@@ -1252,6 +1252,12 @@
     <feature name="nvidia.feature.controller_settings_ui"/>
     <feature name="nvidia.feature.miracast_settings_ui"/>
     <!-- Oneplus -->
+    <library name="oplus-subsys-tool" file="/system/framework/xmlpak_re.jar"/>
+    <library name="oplus-subsystem-service" file="/system/framework/xmlpak_re.jar"/>
+    <library name="oplus-subsys-tool" file="/system/framework/xmlpak_re.jar"/>
+    <library name="oplus-subsystem-service" file="/system/framework/xmlpak_re.jar"/>
+    <library name="oneplus_framework_wrapper" file="/system/framework/xmlpak_re.jar"/>
+    <library name="vendor.oneplus.engnative.engineer-V1.0" file="/system/framework/xmlpak_re.jar"/>
     <feature name="com.games.oneplus"/>
     <feature name="com.games.oppo"/>
     <feature name="com.oneplus.mobilephone"/>
@@ -1264,6 +1270,13 @@
     <feature name="com.oneplus.software.overseas.in"/>
     <feature name="com.oneplus.software.overseas.na"/>
     <feature name="com.oplus.android.feature.PAI"/>
+    <feature name="com.oplus.assistantscreen.google_play_exp"/>
+    <feature name="com.oplus.software.children_space_google_play_exp" />
+    <feature name="com.oplus.software.screenrecorder_google_play" />
+    <feature name="com.oplus.software.viewtalk_google_play" />
+    <feature name="com.oplus.software.scene_mode_google_play_13.1" />
+    <feature name="com.oplus.software.brickmode_oneplus_export" />
+    <feature name="com.oplus.software.children_space_google_play_exp" />
     <feature name="com.oplus.software.overseas.afteroos113"/>
     <feature name="oplus.all.client"/>
     <feature name="oplus.ams.act.freqcontrol"/>
