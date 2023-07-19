@@ -308,6 +308,8 @@
     <!-- Google -->
     <library name="com.google.android.dialer.support" file="/system/framework/com.google.android.dialer.support.jar"/>
     <feature name="android.hardware.camera.ar"/>
+    <feature name="android.hardware.faketouch"/>
+    <feature name="android.hardware.ram.low"/>
     <feature name="android.hardware.gamepad"/>
     <feature name="android.hardware.vr.high_performance"/>
     <feature name="android.software.vr.mode"/>
@@ -791,6 +793,10 @@
     <library name="com.motorola.imager.evert" file="/system/framework/xmlpak_re.jar"/>
     <library name="com.motorola.motosignature" file="/system/framework/xmlpak_re.jar"/>
     <library name="com.motorola.timeweatherwidget.library" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.motorola.camerabgproc" file="/system/framework/xmlpak_re.jar"/>
+    <library name="moto-checkin" file="/system/framework/xmlpak_re.jar"/>
+    <library name="moto-settings" file="/system/framework/xmlpak_re.jar"/>
+    <library name="moto" file="/system/framework/xmlpak_re.jar"/>
     <feature name="com.motorola.actions"/>
     <feature name="com.motorola.actions.2017"/>
     <feature name="com.motorola.aiservices"/>
