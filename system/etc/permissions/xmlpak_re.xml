@@ -203,8 +203,6 @@
     <feature name="asus.software.zenwatch"/>
     <feature name="asus.vibration.lib"/>
     <!-- BQ -->
-    <library name="com.blackberry.only" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.blackberry.security" file="/system/framework/xmlpak_re.jar"/>
     <feature name="bq.software.bqservices.system"/>
     <feature name="bq.software.qcom.camera.full_support"/>
     <feature name="bq.software.qcom.camera4"/>
@@ -248,6 +246,8 @@
     <feature name="bq.software.qcom.q"/>
     <feature name="bq.software.qcom.q.zangya"/>
     <feature name="bq.software.qcom.q.zangyapro"/>
+    <library name="com.blackberry.security" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.blackberry.only" file="/system/framework/xmlpak_re.jar"/>
     <!-- Cisco -->
     <feature name="com.cisco.anyconnect.permissions.patch.htc"/>
     <feature name="com.cisco.anyconnect.permissions.patch.lenovo"/>
@@ -297,7 +297,6 @@
     <!-- Dolby -->
     <feature name="com.dolby.dax2appUI"/>
     <!-- Essential -->
-    <library name="com.essential.score.lib" file="/system/framework/xmlpak_re.jar"/>
     <feature name="com.essential.feature.ESSENTIAL_EXPERIENCE"/>
     <feature name="com.evenwell.DataCollect"/>
     <feature name="com.evenwell.roundapp"/>
@@ -305,14 +304,15 @@
     <feature name="com.fihtdc.DataCollect"/>
     <feature name="com.fihtdc.hardware.sensor.hall"/>
     <feature name="com.fihtdc.inlifeui.settings.style.android"/>
+    <library name="com.essential.score.lib" file="/system/framework/xmlpak_re.jar"/>
     <!-- Google -->
-    <library name="com.google.android.dialer.support" file="/system/framework/com.google.android.dialer.support.jar"/>
     <feature name="android.hardware.camera.ar"/>
     <feature name="android.hardware.faketouch"/>
-    <feature name="android.hardware.ram.low"/>
     <feature name="android.hardware.gamepad"/>
+    <feature name="android.hardware.ram.low"/>
     <feature name="android.hardware.vr.high_performance"/>
     <feature name="android.software.vr.mode"/>
+    <feature name="com.google.ambient.streaming" />
     <feature name="com.google.android.apps.dialer.SUPPORTED"/>
     <feature name="com.google.android.apps.dialer.call_recording_audio"/>
     <feature name="com.google.android.feature.ADAPTIVE_CHARGING"/>
@@ -327,6 +327,7 @@
     <feature name="com.google.android.feature.GOOGLE_FI_BUNDLED"/>
     <feature name="com.google.android.feature.LILY_EXPERIENCE"/>
     <feature name="com.google.android.feature.NEXT_GENERATION_ASSISTANT"/>
+    <feature name="com.google.android.feature.PERSONAL_SAFETY" />
     <feature name="com.google.android.feature.PIXEL_2017_EXPERIENCE"/>
     <feature name="com.google.android.feature.PIXEL_2018_EXPERIENCE"/>
     <feature name="com.google.android.feature.PIXEL_2019_EXPERIENCE"/>
@@ -339,13 +340,11 @@
     <feature name="com.google.android.feature.PIXEL_2022_MIDYEAR_EXPERIENCE"/>
     <feature name="com.google.android.feature.PIXEL_2023_EXPERIENCE"/>
     <feature name="com.google.android.feature.PIXEL_2023_MIDYEAR_EXPERIENCE" />
-    <feature name="com.google.android.feature.PIXEL_TABLET_2023_EXPERIENCE" />
     <feature name="com.google.android.feature.PIXEL_EXPERIENCE"/>
+    <feature name="com.google.android.feature.PIXEL_TABLET_2023_EXPERIENCE" />
     <feature name="com.google.android.feature.QUICK_TAP"/>
     <feature name="com.google.android.feature.TURBO_PRELOAD"/>
     <feature name="com.google.android.feature.WELLBEING"/>
-    <feature name="com.google.android.feature.PERSONAL_SAFETY" />
-    <feature name="com.google.ambient.streaming" />
     <feature name="com.google.android.googlequicksearchbox.AMB_DEVICE_INTEGRATION"/>
     <feature name="com.google.android.googlequicksearchbox.OEM_AOD_SMARTSPACE"/>
     <feature name="com.google.android.googlequicksearchbox.OEM_SMARTSPACE_WIDGET"/>
@@ -353,7 +352,8 @@
     <feature name="com.google.hardware.camera.easel_2018"/>
     <feature name="com.google.lens.feature.CAMERA_INTEGRATION"/>
     <feature name="com.google.lens.feature.IMAGE_INTEGRATION"/>
-
+    <library name="com.google.android.dialer.support" file="/system/framework/com.google.android.dialer.support.jar"/>
+    
     <privapp-permissions package="com.android.hotwordenrollment.okgoogle">
         <permission name="android.permission.KEYPHRASE_ENROLLMENT_APPLICATION"/>
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
@@ -774,12 +774,12 @@
     <feature name="com.lenovo.togglewindow.enable"/>
     <feature name="com.lenovo.weather.custom.widget.support"/>
     <feature name="com.lenovo.ziptheme.custompreload.support"/>
-    <feature name="lenovo.software.android_plus"/>
-    <feature name="lenovo.software.biometrics.face"/>
     <feature name="com.zui.camera"/>
     <feature name="com.zui.dual.vibrator"/>
     <feature name="com.zui.gaming.bar"/>
     <feature name="com.zui.legion.light"/>
+    <feature name="lenovo.software.android_plus"/>
+    <feature name="lenovo.software.biometrics.face"/>
     <!-- Microsoft -->
     <feature name="com.microsoft.android.feature.REMOTE_TASKS"/>
     <feature name="com.microsoft.cortana"/>
@@ -788,17 +788,6 @@
     <feature name="com.microsoft.surface.android.feature.SURFACE_2023_EXPERIENCE"/>
     <feature name="com.microsoft.surface.android.feature.SURFACE_EXPERIENCE"/>
     <!-- Motorola -->
-    <library name="com.motorola.android.settings.shared" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.motorola.android.subsidyutils" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.motorola.frameworks.core.addon" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.motorola.gallery" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.motorola.imager.evert" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.motorola.motosignature" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.motorola.timeweatherwidget.library" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.motorola.camerabgproc" file="/system/framework/xmlpak_re.jar"/>
-    <library name="moto-checkin" file="/system/framework/xmlpak_re.jar"/>
-    <library name="moto-settings" file="/system/framework/xmlpak_re.jar"/>
-    <library name="moto" file="/system/framework/xmlpak_re.jar"/>
     <feature name="com.motorola.actions"/>
     <feature name="com.motorola.actions.2017"/>
     <feature name="com.motorola.aiservices"/>
@@ -1215,6 +1204,17 @@
     <feature name="com.motorolasolutions.software.enterprise.applock"/>
     <feature name="com.motorolasolutions.software.enterprise.multiuser"/>
     <feature name="com.motorolasolutions.software.enterprise.securestorage"/>
+    <library name="com.motorola.android.settings.shared" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.motorola.android.subsidyutils" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.motorola.camerabgproc" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.motorola.frameworks.core.addon" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.motorola.gallery" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.motorola.imager.evert" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.motorola.motosignature" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.motorola.timeweatherwidget.library" file="/system/framework/xmlpak_re.jar"/>
+    <library name="moto" file="/system/framework/xmlpak_re.jar"/>
+    <library name="moto-checkin" file="/system/framework/xmlpak_re.jar"/>
+    <library name="moto-settings" file="/system/framework/xmlpak_re.jar"/>
     <!-- Nextbit -->
     <feature name="com.nextbit.android"/>
     <feature name="com.nextbit.camera"/>
@@ -1223,13 +1223,10 @@
     <feature name="com.nextbit.launcher"/>
     <!-- Nothing -->
     <feature name="com.nothing.feature" />
-    <feature name="com.nothing.launcher.V1_5_data_compat"/>
-    <feature name="com.nothing.feature.OS.V1_5"/>
     <feature name="com.nothing.feature.OS.V2_0"/>
+    <feature name="com.nothing.launcher.V1_5_data_compat"/>
     <feature name="nt.face.facerecognition"/>
     <!-- Nvidia -->
-    <library name="com.nvidia.diagtools.exposed" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.nvidia.graphics" file="/system/framework/xmlpak_re.jar"/>
     <feature name="com.nvidia.feature.app.plex.mediaserver"/>
     <feature name="com.nvidia.feature.app.plex.smbserver"/>
     <feature name="com.nvidia.feature.app.vudu"/>
@@ -1253,13 +1250,9 @@
     <feature name="com.nvidia.nvsi.version.v2"/>
     <feature name="nvidia.feature.controller_settings_ui"/>
     <feature name="nvidia.feature.miracast_settings_ui"/>
+    <library name="com.nvidia.diagtools.exposed" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.nvidia.graphics" file="/system/framework/xmlpak_re.jar"/>
     <!-- Oneplus -->
-    <library name="oplus-subsys-tool" file="/system/framework/xmlpak_re.jar"/>
-    <library name="oplus-subsystem-service" file="/system/framework/xmlpak_re.jar"/>
-    <library name="oplus-subsys-tool" file="/system/framework/xmlpak_re.jar"/>
-    <library name="oplus-subsystem-service" file="/system/framework/xmlpak_re.jar"/>
-    <library name="oneplus_framework_wrapper" file="/system/framework/xmlpak_re.jar"/>
-    <library name="vendor.oneplus.engnative.engineer-V1.0" file="/system/framework/xmlpak_re.jar"/>
     <feature name="com.games.oneplus"/>
     <feature name="com.games.oppo"/>
     <feature name="com.oneplus.mobilephone"/>
@@ -1273,13 +1266,13 @@
     <feature name="com.oneplus.software.overseas.na"/>
     <feature name="com.oplus.android.feature.PAI"/>
     <feature name="com.oplus.assistantscreen.google_play_exp"/>
-    <feature name="com.oplus.software.children_space_google_play_exp" />
-    <feature name="com.oplus.software.screenrecorder_google_play" />
-    <feature name="com.oplus.software.viewtalk_google_play" />
-    <feature name="com.oplus.software.scene_mode_google_play_13.1" />
     <feature name="com.oplus.software.brickmode_oneplus_export" />
     <feature name="com.oplus.software.children_space_google_play_exp" />
+    <feature name="com.oplus.software.children_space_google_play_exp" />
     <feature name="com.oplus.software.overseas.afteroos113"/>
+    <feature name="com.oplus.software.scene_mode_google_play_13.1" />
+    <feature name="com.oplus.software.screenrecorder_google_play" />
+    <feature name="com.oplus.software.viewtalk_google_play" />
     <feature name="oplus.all.client"/>
     <feature name="oplus.ams.act.freqcontrol"/>
     <feature name="oplus.camera.antishake.support"/>
@@ -1298,6 +1291,12 @@
     <feature name="oplus.phone.support_5g_nrmode"/>
     <feature name="oplus.qualcomm.gemini.support"/>
     <feature name="oplus.secrecy.support"/>
+    <library name="oneplus_framework_wrapper" file="/system/framework/xmlpak_re.jar"/>
+    <library name="oplus-subsys-tool" file="/system/framework/xmlpak_re.jar"/>
+    <library name="oplus-subsys-tool" file="/system/framework/xmlpak_re.jar"/>
+    <library name="oplus-subsystem-service" file="/system/framework/xmlpak_re.jar"/>
+    <library name="oplus-subsystem-service" file="/system/framework/xmlpak_re.jar"/>
+    <library name="vendor.oneplus.engnative.engineer-V1.0" file="/system/framework/xmlpak_re.jar"/>
     <!-- Razor -->
     <feature name="com.razer.camera"/>
     <feature name="com.razerzone"/>
@@ -1307,9 +1306,6 @@
     <feature name="com.razerzone.razerservices"/>
     <feature name="com.razerzone.themes"/>
     <!-- Samsung -->
-    <library name="com.samsung.device" file="/system/framework/xmlpak_re.jar"/>
-    <library name="manager_wrapper_compat" file="/system/framework/xmlpak_re.jar" />
-    <library name="oneui" file="/system/framework/xmlpak_re.jar"/>
     <feature name="com.samsung.android.api.version.2402"/>
     <feature name="com.samsung.android.api.version.2403"/>
     <feature name="com.samsung.android.api.version.2501"/>
@@ -1327,38 +1323,24 @@
     <feature name="com.samsung.android.api.version.3101"/>
     <feature name="com.samsung.android.api.version.3201"/>
     <feature name="com.samsung.android.api.version.3301"/>
-    <feature name="com.samsung.android.knox.knoxsdk.api.level.36"/>
-    <feature name="com.samsung.android.knox.knoxsdk.api.level.35"/>
-    <feature name="com.samsung.android.knox.knoxsdk.api.level.34"/>
+    <feature name="com.samsung.android.authfw" />
+    <feature name="com.samsung.android.camera.deviceinjector" version="1" />
+    <feature name="com.samsung.android.knox.knoxsdk" />
     <feature name="com.samsung.android.knox.knoxsdk.api.level.33"/>
+    <feature name="com.samsung.android.knox.knoxsdk.api.level.34"/>
+    <feature name="com.samsung.android.knox.knoxsdk.api.level.35"/>
+    <feature name="com.samsung.android.knox.knoxsdk.api.level.36"/>
+    <feature name="com.samsung.android.sdk.camera.processor" />
+    <feature name="com.samsung.android.sdk.camera.processor.effect" />
     <feature name="com.samsung.feature.SAMSUNG_EXPERIENCE"/>
     <feature name="com.samsung.feature.SAMSUNG_EXPERIENCE_AM" />
+    <feature name="com.samsung.feature.aodservice_v10" />
     <feature name="com.samsung.feature.aremoji.v2"/>
+    <feature name="com.samsung.feature.device_category_phone" />
     <feature name="com.samsung.feature.galaxyfinder_v7"/>
     <feature name="com.samsung.feature.samsung_experience_mobile"/>
-    <feature name="com.samsung.android.knox.knoxsdk" />
-    <feature name="com.samsung.android.camera.deviceinjector" version="1" />
     <feature name="com.samsung.feature.samsungpositioning"/>
     <feature name="com.samsung.feature.samsungpositioning.snlp"/>
-    <feature name="com.samsung.feature.device_category_phone" />
-    <feature name="com.samsung.feature.aodservice_v10" />
-    <feature name="com.samsung.android.sdk.camera.processor.effect" />
-    <feature name="com.samsung.android.sdk.camera.processor" />
-    <feature name="com.samsung.android.authfw" />
-    <feature name="samsung.feature.drm.playready"/>
-    <feature name="samsung.feature.drm.playready_DLA"/>
-    <feature name="samsung.feature.octa"/>
-    <feature name="samsung.hardware.video.hdmiout"/>
-    <feature name="samsung.moreservice.googleplay"/>
-    <feature name="samsung.software.mediahub"/>
-    <feature name="samsung.software.mediahub.CaffeLatte"/>
-    <feature name="samsung.software.mediahub.att.carrierbilling"/>
-    <feature name="samsung.software.mediahub.ics"/>
-    <feature name="samsung.software.mediahub.mw.v1"/>
-    <feature name="samsung.software.smartview"/>
-    <feature name="samsung.software.smartview.phone"/>
-    <feature name="samsung.software.smartview.trustzone"/>
-    <feature name="samsung.software.video.hd"/>
     <feature name="com.sec.android.mdm"/>
     <feature name="com.sec.android.secimaging"/>
     <feature name="com.sec.android.secimaging.faceAR"/>
@@ -1405,33 +1387,24 @@
     <feature name="com.sec.software.status_bar.quick_panel.mini_controllers"/>
     <feature name="com.sec.software.status_bar.quick_panel.quick_settings"/>
     <feature name="com.sec.software.statusbar.minimode_tray"/>
+    <feature name="samsung.feature.drm.playready"/>
+    <feature name="samsung.feature.drm.playready_DLA"/>
+    <feature name="samsung.feature.octa"/>
+    <feature name="samsung.hardware.video.hdmiout"/>
+    <feature name="samsung.moreservice.googleplay"/>
+    <feature name="samsung.software.mediahub"/>
+    <feature name="samsung.software.mediahub.CaffeLatte"/>
+    <feature name="samsung.software.mediahub.att.carrierbilling"/>
+    <feature name="samsung.software.mediahub.ics"/>
+    <feature name="samsung.software.mediahub.mw.v1"/>
+    <feature name="samsung.software.smartview"/>
+    <feature name="samsung.software.smartview.phone"/>
+    <feature name="samsung.software.smartview.trustzone"/>
+    <feature name="samsung.software.video.hd"/>
+    <library name="com.samsung.device" file="/system/framework/xmlpak_re.jar"/>
+    <library name="manager_wrapper_compat" file="/system/framework/xmlpak_re.jar" />
+    <library name="oneui" file="/system/framework/xmlpak_re.jar"/>
     <!-- Sony -->
-    <library name="com.playstation.playstationcertified" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.playstation.remoteplayident" file="/system/framework/xmlpak_re.jar"/>
-    <library name="playstationcertified" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sony.device" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonyericsson.android.SwIqiBmp" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonyericsson.colorextraction" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonyericsson.system" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonyericsson.uxp" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonyericsson.uxpres" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.album.internal" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.album.internal_1" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.album_1" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.home.resourceprovider.api" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.imageenhancer.api_1" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.imageprocessor.superresolution.api" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.imageprocessor.jpegencoder.api" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.imageprocessor.jpegdecoder.api" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.mediacontent_1" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.mediacontent_2" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.mediacontent_3" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.mediacontent_4" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.photoanalyzer.api" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.photoanalyzer.api_3" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.photoanalyzer.api_4" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.photoanalyzer.api_5" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.sonymobile.photoanalyzer.api_6" file="/system/framework/xmlpak_re.jar"/>
     <feature name="com.sony.device"/>
     <feature name="com.sony.devices"/>
     <feature name="com.sony.nfx.dspaudioeffect"/>
@@ -1476,6 +1449,32 @@
     <feature name="com.sonymobile.feature.disable.sdcrypt.ui"/>
     <feature name="com.sonymobile.floating_touch"/>
     <feature name="com.sonymobile.vr"/>
+    <library name="com.playstation.playstationcertified" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.playstation.remoteplayident" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sony.device" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonyericsson.android.SwIqiBmp" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonyericsson.colorextraction" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonyericsson.system" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonyericsson.uxp" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonyericsson.uxpres" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.album.internal" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.album.internal_1" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.album_1" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.home.resourceprovider.api" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.imageenhancer.api_1" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.imageprocessor.jpegdecoder.api" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.imageprocessor.jpegencoder.api" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.imageprocessor.superresolution.api" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.mediacontent_1" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.mediacontent_2" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.mediacontent_3" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.mediacontent_4" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.photoanalyzer.api" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.photoanalyzer.api_3" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.photoanalyzer.api_4" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.photoanalyzer.api_5" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sonymobile.photoanalyzer.api_6" file="/system/framework/xmlpak_re.jar"/>
+    <library name="playstationcertified" file="/system/framework/xmlpak_re.jar"/>
     <!-- Sprint -->
     <feature name="com.sprint.internal.LauncherFacade"/>
     <!-- Truecaller -->
@@ -1511,14 +1510,14 @@
     <feature name="com.vivo.themestore.SUPPORTED"/>
     <feature name="com.vivo.website.in.SUPPORTED"/>
     <!-- Xiaomi -->
-    <library name="com.miui.system" file="/system/framework/xmlpak_re.jar"/>
-    <library name="com.miui.rom" file="/system/framework/xmlpak_re.jar"/>
     <library name="com.miui.core" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.miui.rom" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.miui.system" file="/system/framework/xmlpak_re.jar"/>
     <!-- Yota -->
     <feature name="com.yotadevices.feature.API_YD201_005"/>
     <!-- Misc -->
-    <feature name="com.pixavi.feature.PIXAVI_ENHANCEMENT"/>
     <feature name="com.nxp.mifare"/>
+    <feature name="com.pixavi.feature.PIXAVI_ENHANCEMENT"/>
     <feature name="com.yandex.software.yphone"/>
     <feature name="sc.hardware.blackphone"/>
     <feature name="sura.tool.feature"/>
