@@ -309,7 +309,6 @@
     <feature name="android.hardware.camera.ar"/>
     <feature name="android.hardware.faketouch"/>
     <feature name="android.hardware.gamepad"/>
-    <feature name="android.hardware.ram.low"/>
     <feature name="android.hardware.vr.high_performance"/>
     <feature name="android.software.vr.mode"/>
     <feature name="com.google.ambient.streaming" />
