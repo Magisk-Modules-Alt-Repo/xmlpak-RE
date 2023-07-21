@@ -1324,6 +1324,7 @@
     <feature name="com.samsung.android.api.version.3201"/>
     <feature name="com.samsung.android.api.version.3301"/>
     <feature name="com.samsung.android.authfw" />
+    <feature name="com.samsung.android.cameraxservice" />
     <feature name="com.samsung.android.camera.deviceinjector" version="1" />
     <feature name="com.samsung.android.knox.knoxsdk" />
     <feature name="com.samsung.android.knox.knoxsdk.api.level.33"/>
@@ -1353,6 +1354,10 @@
     <feature name="com.sec.feature.call_vt_support"/>
     <feature name="com.sec.feature.cocktailbar"/>
     <feature name="com.sec.feature.cocktailpanel"/>
+    <feature name="com.sec.feature.cover" />
+    <feature name="com.sec.feature.cover.clearcameraviewcover" />
+    <feature name="com.sec.feature.cover.flip" />
+    <feature name="com.sec.feature.cover.sview" />
     <feature name="com.sec.feature.edge_v03"/>
     <feature name="com.sec.feature.findo"/>
     <feature name="com.sec.feature.flashbar"/>
@@ -1366,9 +1371,11 @@
     <feature name="com.sec.feature.minimode"/>
     <feature name="com.sec.feature.minimode_tray"/>
     <feature name="com.sec.feature.motionrecognition_service"/>
+    <feature name="com.sec.feature.nsflp" version="601"/>
     <feature name="com.sec.feature.people_edge_notification"/>
     <feature name="com.sec.feature.pocketmode"/>
     <feature name="com.sec.feature.saccessorymanager"/>
+    <feature name="com.sec.feature.sensorhub" version="29"/>
     <feature name="com.sec.feature.samsunglinkplatform"/>
     <feature name="com.sec.feature.sidetouch"/>
     <feature name="com.sec.feature.slocation"/>
@@ -1401,7 +1408,15 @@
     <feature name="samsung.software.smartview.phone"/>
     <feature name="samsung.software.smartview.trustzone"/>
     <feature name="samsung.software.video.hd"/>
+    <library name="com.samsung.android.uwb_extras" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.samsung.bbc" file="/system/framework/xmlpak_re.jar"/>
     <library name="com.samsung.device" file="/system/framework/xmlpak_re.jar"/>
+    <library name="samsung.uwb" file="/system/framework/xmlpak_re.jar"/>
+    <library name="samsungkeystoreutils" file="/system/framework/xmlpak_re.jar"/>
+    <library name="com.sec.esecomm" file="/system/framework/xmlpak_re.jar"/>
+    <library name="knoxanalyticssdk"  file="/system/framework/xmlpak_re.jar"/>
+    <library name="knoxsdk" file="/system/framework/xmlpak_re.jar"/>
+    <library name="mcfsdk" file="/system/framework/xmlpak_re.jar"/>
     <library name="manager_wrapper_compat" file="/system/framework/xmlpak_re.jar" />
     <library name="oneui" file="/system/framework/xmlpak_re.jar"/>
     <!-- Sony -->
