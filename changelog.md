@@ -1,3 +1,6 @@
+**6.0
+- Fixed Google Dailer Call Rec
+
 **5.5
 - Fixed module not working for A13
 - Unified Xmls
