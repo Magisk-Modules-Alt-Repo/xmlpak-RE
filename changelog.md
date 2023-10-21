@@ -1,11 +1,25 @@
-**6.0
+**8.0**
+- Fixed issue with some apps
+- Add multi window,pin app
+
+**7.5**
+- Update Nothing 
+
+
+**7.0**
+- Add more features based on @reiryuki 's Device Features Enabler Magisk Module 
+
+**6.5**
+- Update Google
+
+**6.0**
 - Fixed Google Dailer Call Rec
 
-**5.5
+**5.5**
 - Fixed module not working for A13
 - Unified Xmls
 
-**5.0
+**5.0**
 - Fixed Google Spoof
 - Updated Samsung, Sony
 - Updated Module Installer
